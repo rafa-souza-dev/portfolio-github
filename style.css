@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #22212C;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.container {
+    padding: 40px 40px 20px 40px;
+
+    display: flex;
+    gap: 60px;
+}
+
+h1 {
+    color: #837E9F;
+    font-size: 24px;
+}
+
+span {
+    color: #837E9F;
+    font-size: 14px;
+}
+
+aside {
+    width: 348px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.box {
+    background-color: #302F3D;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+aside .profile {
+    height: 292px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    padding-top: 32px;
+
+    gap: 29px;
+}
+
+aside .profile img {
+    width: 128px;
+
+    border-radius: 50%;
+    border: 2px solid #00FF00;
+}
+
+aside .profile .profile-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+}
+
+aside .tech-box {
+    min-height: 208px;
+
+    padding: 30px 0 30px 20px;
+}
+
+aside .tech-box h1 {
+    margin-bottom: 20px;
+}
+
+aside .tech-box ul {
+    width: 100%;
+
+    list-style: none;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15.5px;
+    row-gap: 15px;
+
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+aside .tech-box ul li {
+    width: 86.5px;
+    height: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: black;
+
+    background-color: #CB92B1;
+    border-radius: 30px;
+}
+
+main {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+main .repo-title-box {
+    height: 86px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-inline: 30px;
+}
+
+main ul {
+    list-style: none;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15.5px;
+    row-gap: 15px;
+}
+
+main ul li {
+    height: 186px;
+    max-width: 461px;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main ul li header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+main ul li footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.repo-summary {
+    display: flex;
+    align-items: center;
+    gap: 13.5px
+}
+
+.repo-summary div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+p {
+    color: white;
+}

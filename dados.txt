@@ -1,0 +1,5 @@
+título             = name
+descrição          = description
+estrelas           = stargazers_count
+número de branches = https://api.github.com/repos/rafa-souza-dev/wet-waters-back/branches
+tecnologia         = language
